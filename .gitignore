@@ -1,0 +1,126 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python build / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+!database/.gitkeep
+
+# =========================
+# Dataset
+# =========================
+# Dataset mentah biasanya besar, jadi jangan dimasukkan ke repo
+dataset/raw/*
+!dataset/raw/.gitkeep
+
+# Foto label makanan biasanya besar/banyak, jadi jangan dimasukkan ke repo
+dataset/images/*
+!dataset/images/.gitkeep
+
+# Dataset hasil olahan boleh masuk repo jika kecil.
+# Kalau processed dataset nanti besar, aktifkan ignore di bawah:
+# dataset/processed/*
+# !dataset/processed/.gitkeep
+
+# =========================
+# Model / Checkpoint
+# =========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# EasyOCR / ML Cache
+# =========================
+.easyocr/
+.cache/
+.cache_*/
+torch_cache/
+*.ckpt
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
