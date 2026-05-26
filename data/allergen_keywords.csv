@@ -1,0 +1,10 @@
+category,keywords,description,risk_level
+susu,"susu,milk,milk powder,susu bubuk,skim milk,skimmed milk,whey,whey powder,casein,kasein,lactose,laktosa,butter,mentega,cheese,keju,cream,krim,yogurt,yoghurt,curd,caseinate","Alergen susu dan turunannya. Berisiko untuk pengguna alergi susu atau intoleransi laktosa.","high"
+telur,"telur,egg,eggs,egg white,putih telur,egg yolk,kuning telur,albumin,ovalbumin,mayonnaise,mayonnaise powder","Alergen telur dan turunannya. Berisiko untuk pengguna alergi telur.","high"
+gluten,"gluten,gandum,wheat,wheat flour,tepung terigu,terigu,barley,rye,malt,oat,semolina,durum,spelt","Sumber gluten/gandum. Berisiko untuk pengguna celiac disease atau sensitif gluten.","high"
+kedelai,"kedelai,soy,soya,soybean,soy bean,soy flour,soy protein,isolated soy protein,textured vegetable protein,soy lecithin,lesitin kedelai,lecithin kedelai","Alergen kedelai dan turunannya. Berisiko untuk pengguna alergi kedelai.","high"
+kacang_tanah,"kacang tanah,peanut,peanuts,groundnut,arachis oil,peanut oil,peanut butter","Alergen kacang tanah. Berisiko tinggi untuk pengguna alergi kacang tanah.","high"
+kacang_pohon,"almond,hazelnut,cashew,kacang mete,walnut,pistachio,macadamia,pecan,brazil nut,pine nut","Alergen tree nuts/kacang pohon. Berisiko untuk pengguna alergi kacang pohon.","high"
+seafood,"seafood,fish,ikan,tuna,salmon,sardine,sarden,anchovy,teri,shrimp,udang,prawn,crab,kepiting,lobster,squid,cumi,oyster,tiram,clam,kerang,shellfish","Alergen ikan dan makanan laut. Berisiko untuk pengguna alergi seafood.","high"
+wijen,"wijen,sesame,sesame seed,sesame oil,minyak wijen,tahini","Alergen wijen. Berisiko untuk pengguna alergi wijen.","medium"
+sulfit,"sulfit,sulfite,sulphite,sulfur dioxide,sulphur dioxide,sulfur dioksida,sodium metabisulfite,natrium metabisulfit,potassium metabisulfite","Sulfit dapat memicu sensitivitas pada sebagian orang, terutama pengguna dengan sensitivitas sulfit atau asma tertentu.","medium"
