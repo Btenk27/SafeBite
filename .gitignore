@@ -54,9 +54,27 @@ MANIFEST
 *.db
 *.sqlite
 *.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
 database/*.db
 database/*.sqlite
 database/*.sqlite3
+database/*.db-journal
+database/*.db-shm
+database/*.db-wal
+database/*.sqlite-journal
+database/*.sqlite-shm
+database/*.sqlite-wal
+database/*.sqlite3-journal
+database/*.sqlite3-shm
+database/*.sqlite3-wal
 !database/.gitkeep
 
 # =========================
@@ -92,6 +110,7 @@ models/
 .easyocr/
 .cache/
 .cache_*/
+easyocr-models/
 torch_cache/
 *.ckpt
 
@@ -99,6 +118,17 @@ torch_cache/
 # Jupyter Notebook
 # =========================
 .ipynb_checkpoints/
+
+# =========================
+# Test / Coverage
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
 
 # =========================
 # Logs
